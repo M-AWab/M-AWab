@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="840" viewBox="0 0 960 840" role="img" aria-labelledby="title desc" preserveAspectRatio="xMidYMid meet">
+  <title id="title">Muhammad Awab terminal profile — dark theme</title>
+  <desc id="desc">A macOS-style terminal listing Muhammad Awab's education, focus, development skills, security tools, location, and contact links.</desc>
+  <defs>
+    <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#111820"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+    <style>
+      text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; text-rendering: geometricPrecision }
+      .command { fill: #f0f6fc; font-size: 18px; font-weight: 600 }
+      .prompt { fill: #3fb950 }
+      .line { fill: #c9d1d9; font-size: 17px }
+      .label { fill: #8b949e }
+      .value { fill: #e6edf3 }
+      .link { fill: #58a6ff }
+      .mobile { display: none }
+      @media (max-width: 600px) {
+        .desktop { display: none }
+        .mobile { display: inline }
+        .mobile-command { fill: #f0f6fc; font-size: 30px; font-weight: 600 }
+        .mobile-line { fill: #e6edf3; font-size: 27px }
+      }
+    </style>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="12" y="12" width="936" height="816" rx="18" fill="url(#shell)" stroke="#30363d"/>
+    <path d="M30 12h900a18 18 0 0 1 18 18v46H12V30a18 18 0 0 1 18-18Z" fill="#161b22"/>
+    <path d="M12 76h936" stroke="#30363d"/>
+
+    <circle cx="43" cy="44" r="7" fill="#ff5f57"/>
+    <circle cx="67" cy="44" r="7" fill="#febc2e"/>
+    <circle cx="91" cy="44" r="7" fill="#28c840"/>
+    <text x="480" y="50" fill="#8b949e" font-size="14" text-anchor="middle">awab@github — zsh</text>
+    <rect x="790" y="29" width="128" height="30" rx="15" fill="#0d1117" stroke="#30363d"/>
+    <circle cx="808" cy="44" r="4" fill="#3fb950"/>
+    <text x="822" y="49" fill="#8b949e" font-size="12">M-AWab</text>
+
+    <path d="M43 104v678" stroke="#238636" stroke-width="2" opacity=".65"/>
+
+    <g class="desktop">
+      <text x="65" y="121" class="command"><tspan class="prompt">$</tspan><tspan dx="10">whoami</tspan></text>
+      <text x="88" y="151" class="line"><tspan class="value">Muhammad Awab</tspan></text>
+
+      <text x="65" y="193" class="command"><tspan class="prompt">$</tspan><tspan dx="10">cat profile.txt</tspan></text>
+      <text x="88" y="229" class="line"><tspan class="label">Name</tspan><tspan x="220" class="value">: Muhammad Awab</tspan></text>
+      <text x="88" y="258" class="line"><tspan class="label">DOB</tspan><tspan x="220" class="value">: 11-07-2005</tspan></text>
+      <text x="88" y="287" class="line"><tspan class="label">University</tspan><tspan x="220" class="value">: Salim Habib University</tspan></text>
+      <text x="88" y="316" class="line"><tspan class="label">Degree</tspan><tspan x="220" class="value">: BS Computer Science</tspan></text>
+      <text x="88" y="345" class="line"><tspan class="label">Status</tspan><tspan x="220" class="value">: Final-year BS Computer Science student</tspan></text>
+      <text x="88" y="374" class="line"><tspan class="label">Focus</tspan><tspan x="220" class="value">: Cybersecurity &amp; Machine Learning</tspan></text>
+      <text x="88" y="403" class="line"><tspan class="label">IDE</tspan><tspan x="220" class="value">: VS Code</tspan></text>
+
+      <text x="65" y="447" class="command"><tspan class="prompt">$</tspan><tspan dx="10">skills --list</tspan></text>
+      <text x="88" y="483" class="line"><tspan class="label">Languages</tspan><tspan x="220" class="value">: C · Java · Python · MySQL · Bash</tspan></text>
+      <text x="88" y="512" class="line"><tspan class="label">Tech</tspan><tspan x="220" class="value">: React · MongoDB · PyTorch</tspan></text>
+      <text x="88" y="541" class="line"><tspan class="label">Security</tspan><tspan x="220" class="value">: Wireshark · Cisco Packet Tracer · Nmap</tspan></text>
+
+      <text x="65" y="585" class="command"><tspan class="prompt">$</tspan><tspan dx="10">location</tspan></text>
+      <text x="88" y="615" class="line"><tspan class="value">Pakistan</tspan></text>
+
+      <text x="65" y="659" class="command"><tspan class="prompt">$</tspan><tspan dx="10">contact --links</tspan></text>
+      <text x="88" y="695" class="line"><tspan class="label">Email</tspan><tspan x="220">: </tspan><tspan class="link">muhammadawab49@gmail.com</tspan></text>
+      <text x="88" y="724" class="line"><tspan class="label">LinkedIn</tspan><tspan x="220">: </tspan><tspan class="link">linkedin.com/in/muhammad-awab-b092a3222</tspan></text>
+      <text x="88" y="753" class="line"><tspan class="label">GitHub</tspan><tspan x="220">: </tspan><tspan class="link">github.com/M-AWab</tspan></text>
+
+      <rect x="65" y="781" width="10" height="20" rx="1" fill="#3fb950">
+        <animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <g class="mobile">
+      <text x="65" y="121" class="mobile-command"><tspan class="prompt">$</tspan><tspan dx="14">whoami</tspan></text>
+      <text x="88" y="154" class="mobile-line">Muhammad Awab</text>
+
+      <text x="65" y="195" class="mobile-command"><tspan class="prompt">$</tspan><tspan dx="14">cat profile.txt</tspan></text>
+      <text x="88" y="229" class="mobile-line">Name : Muhammad Awab</text>
+      <text x="88" y="260" class="mobile-line">DOB : 11-07-2005</text>
+      <text x="88" y="291" class="mobile-line">University : Salim Habib University</text>
+      <text x="88" y="322" class="mobile-line">Degree : BS Computer Science</text>
+      <text x="88" y="353" class="mobile-line">Status : Final-year BS Computer Science student</text>
+      <text x="88" y="384" class="mobile-line">Focus : Cybersecurity &amp; Machine Learning</text>
+      <text x="88" y="415" class="mobile-line">IDE : VS Code</text>
+
+      <text x="65" y="459" class="mobile-command"><tspan class="prompt">$</tspan><tspan dx="14">skills --list</tspan></text>
+      <text x="88" y="493" class="mobile-line">Languages : C · Java · Python · MySQL · Bash</text>
+      <text x="88" y="524" class="mobile-line">Tech : React · MongoDB · PyTorch</text>
+      <text x="88" y="555" class="mobile-line">Security : Wireshark · Cisco Packet Tracer · Nmap</text>
+
+      <text x="65" y="599" class="mobile-command"><tspan class="prompt">$</tspan><tspan dx="14">location</tspan></text>
+      <text x="88" y="632" class="mobile-line">Pakistan</text>
+
+      <text x="65" y="676" class="mobile-command"><tspan class="prompt">$</tspan><tspan dx="14">contact --links</tspan></text>
+      <text x="88" y="710" class="mobile-line">Email : <tspan class="link">muhammadawab49@gmail.com</tspan></text>
+      <text x="88" y="741" class="mobile-line">LinkedIn : <tspan class="link">muhammad-awab-b092a3222</tspan></text>
+      <text x="88" y="772" class="mobile-line">GitHub : <tspan class="link">github.com/M-AWab</tspan></text>
+      <rect x="65" y="791" width="15" height="25" rx="1" fill="#3fb950">
+        <animate attributeName="opacity" values="1;.2;1" dur="1.2s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+</svg>
